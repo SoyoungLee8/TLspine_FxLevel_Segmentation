@@ -1,6 +1,7 @@
 from scipy.ndimage import label
-import torch
 import numpy as np
+import torch
+import cv2
 
 
 def refine_position(batch_yhat):
